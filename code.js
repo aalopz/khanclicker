@@ -1,4 +1,5 @@
 var Clicks = 0;
+playSound("media/backgroundmusic.mp3", true);
 //clicking system
 timedLoop(.1, function() {
   setText("label1", "khans: \n" + Clicks);
